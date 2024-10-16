@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/iFarm-Main-Service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -21,36 +21,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.IFarmerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/uyser/Documents/iFarm&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.IFarmerApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/uyser/Documents/iFarm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/iFarm-Main-Service" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IFarmerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="WEATHER_API_URL" value="https://api.weatherapi.com/v1/current.json" />
+        <env name="ADMIN_PASSWORD" value="admin1" />
+        <env name="ADMIN_USERNAME" value="admin" />
+        <env name="API_KEY" value="263794478838765" />
+        <env name="API_SECRET" value="1eU2KIusYoNU6l2nttaUanQTNTk" />
+        <env name="CLOUD_NAME" value="dmyao7qvz" />
+        <env name="DB_DATABASE_PLATFORM" value="org.hibernate.dialect.MySQLDialect" />
+        <env name="DB_DRIVER_CLASS_NAME" value="com.mysql.cj.jdbc.Driver" />
+        <env name="DB_NAME" value="iFarmer" />
+        <env name="DB_PASSWORD" value="Ikiseh@1" />
+        <env name="DB_USER" value="root" />
+        <env name="EMAIL_PASSWORD" value="bjatqyhnhwyawpjx" />
+        <env name="EMAIL_USERNAME" value="ikisehtochukwu@gmail.com" />
+        <env name="FIREBASE_CONFIG" value="2fd0bfe1802badfe1f8da74356c5c5ff5558867c" />
+        <env name="JDBC_URL" value="jdbc:mysql://localhost:3306/iFarmer" />
+        <env name="JWT_SECRET" value="U7BMdsdV3LLPTZ9nJLG2/H3z+IO69mdgm+FkmCQrAPHMG1h6FiuBmEAUZ+EHn1d4zVQNgq5wfdLMoc+lAQFMJw\\=\\=" />
+        <env name="RESET_URL" value="http://localhost:8080/api/auth/confirm-forget-password-token?token\\=" />
+        <env name="VERIFICATION_URL" value="http://localhost:5173/verify-email?token\\=" />
+        <env name="WEATHER_API_KEY" value="dfbfa406478043b9bcb54355240410" />
+      </envs>
       <module name="IFarmerApplication" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.ifarmr.IFarmerApplication" />
       <method v="2">
@@ -76,6 +108,7 @@
       <updated>1729078985863</updated>
       <workItem from="1729078987605" duration="1952000" />
       <workItem from="1729081185631" duration="122000" />
+      <workItem from="1729082512139" duration="594000" />
     </task>
     <servers />
   </component>
